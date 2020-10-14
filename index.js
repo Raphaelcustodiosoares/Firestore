@@ -12,6 +12,7 @@ exports.create = (request, response) => {
     .set({
       title: body.placa,
       text: body.cor,
+      text: body.marca,
       text: body.preco,
       text: body.modelo
     })
