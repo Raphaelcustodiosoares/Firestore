@@ -12,7 +12,7 @@ exports.create = (request, response) => {
     .set({
       title: body.placa,
       text: body.cor,
-      text: body.preco
+      text: body.preco,
       text: body.modelo
     })
     .then(() => {
