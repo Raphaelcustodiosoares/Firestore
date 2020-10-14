@@ -29,7 +29,7 @@ exports.read = (request, response) => {
   collection
     .get()
     .then(function(querySnapshot) {
-      querySnapshot.forEach(function(doc.placa) {
+      querySnapshot.forEach(function(doc) {
         console.log(doc.placa, " => ", doc.data());
       });
     })
